@@ -32,21 +32,17 @@ export default function Hero() {
           You&apos;re invited to
         </p>
 
-        <h1 className="text-4xl sm:text-6xl font-serif font-bold text-white mb-4 drop-shadow-lg">
-          Iain&apos;s 3rd Birthday
+        <h1 className="text-3xl sm:text-5xl font-serif font-bold text-white mb-4 drop-shadow-lg">
+          1st Party, 2nd Baby, 3rd Birthday!
         </h1>
 
         <div className="inline-flex items-center gap-2 bg-white/30 backdrop-blur-sm rounded-full px-5 py-2 mb-6">
           <span className="text-lg">🎉</span>
           <span className="text-white font-semibold text-sm sm:text-base drop-shadow">
-            &amp; We&apos;re Welcoming the Second!
+            Come find out and place your bet!
           </span>
           <span className="text-lg">🍼</span>
         </div>
-
-        <p className="text-sand-100 text-sm sm:text-base font-medium mb-8">
-          Come find out and place your bet! 🎉
-        </p>
 
         <div className="space-y-2 mb-8">
           <p className="font-bold text-white text-lg sm:text-xl drop-shadow">
