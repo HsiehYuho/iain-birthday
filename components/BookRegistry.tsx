@@ -80,6 +80,11 @@ export default function BookRegistry() {
           Instead of gifts, we&apos;d love STEM-inspired books to grow Iain&apos;s library!
           Claim a book below to let others know you&apos;ve got it covered.
         </p>
+        <div className="text-center mb-3">
+          <p className="text-sand-600 text-sm bg-sand-100 inline-block px-4 py-2 rounded-lg">
+            📦 <span className="font-medium">Ship to:</span> Iain Hsieh, 4330 32nd Ave W, Seattle, WA 98199
+          </p>
+        </div>
 
         {/* Progress */}
         <div className="max-w-xs mx-auto mb-8">
