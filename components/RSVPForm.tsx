@@ -58,7 +58,7 @@ export default function RSVPForm() {
               {guestCount > 1 ? `${guestCount - 1} guest${guestCount > 2 ? "s" : ""}` : "crew"}!
             </p>
             <p className="text-sand-500 text-sm mt-4">
-              📅 Saturday, July 11 · 4–7 PM · Golden Gardens Park
+              📅 Sunday, July 12 · 3–7 PM · Golden Gardens Park
             </p>
             <div className="mt-6">
               <a

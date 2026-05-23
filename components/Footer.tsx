@@ -7,7 +7,7 @@ export default function Footer() {
           Iain&apos;s 3rd Birthday &amp; Gender Reveal
         </p>
         <p className="text-sand-500 text-sm">
-          July 11, 2026 · 4–7 PM · Golden Gardens Park, Seattle
+          July 12, 2026 · 3–7 PM · Golden Gardens Park, Seattle
         </p>
         <p className="text-sand-400 text-xs mt-4">
           Made with ❤️ for Iain &amp; baby #2
