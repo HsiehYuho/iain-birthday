@@ -1,12 +1,28 @@
 import { google } from "googleapis";
 
 function getAuth() {
-  const privateKey = (process.env.GOOGLE_SHEETS_PRIVATE_KEY || "").replace(
-    /\\n/g,
-    "\n"
-  );
+  // Support chi-bakery style single JSON key, OR split env vars
+  const serviceAccountKey = process.env.GOOGLE_SERVICE_ACCOUNT_KEY;
+
+  let email: string;
+  let privateKey: string;
+
+  if (serviceAccountKey) {
+    // Single JSON blob (same as chi-bakery)
+    const parsed = JSON.parse(serviceAccountKey);
+    email = parsed.client_email;
+    privateKey = parsed.private_key;
+  } else {
+    // Fallback to split env vars
+    email = process.env.GOOGLE_SHEETS_CLIENT_EMAIL || "";
+    privateKey = (process.env.GOOGLE_SHEETS_PRIVATE_KEY || "").replace(
+      /\\n/g,
+      "\n"
+    );
+  }
+
   return new google.auth.JWT({
-    email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
+    email,
     key: privateKey,
     scopes: ["https://www.googleapis.com/auth/spreadsheets"],
   });
