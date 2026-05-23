@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-3xl mx-auto px-6 text-center space-y-4">
         <p className="text-3xl">🏖️ 🎂 🍼</p>
         <p className="text-sand-600 text-sm">
-          Iain&apos;s 3rd Birthday &amp; Gender Reveal
+          Iain&apos;s 3rd Birthday &amp; Welcome Baby #2
         </p>
         <p className="text-sand-500 text-sm">
           July 12, 2026 · 3–7 PM · Golden Gardens Park, Seattle

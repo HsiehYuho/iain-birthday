@@ -22,10 +22,10 @@ export default function WhatToExpect() {
           {/* Gender Reveal */}
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-sand-100">
             <span className="text-3xl mb-3 block">🎁</span>
-            <h3 className="font-bold text-sand-900 text-lg mb-2">Gender Reveal Surprise</h3>
+            <h3 className="font-bold text-sand-900 text-lg mb-2">We&apos;re Welcoming the Second!</h3>
             <p className="text-sand-600 text-sm leading-relaxed">
-              We&apos;re keeping baby&apos;s gender a secret during the party! But for those who
-              really want to know, we&apos;ll have a special little box you can peek into privately. 🤫
+              Come find out and place your bet! We&apos;ll have a special little box for those
+              who really want to know — peek inside privately. 🤫
             </p>
           </div>
 

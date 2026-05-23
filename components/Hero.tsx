@@ -39,10 +39,14 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 bg-white/30 backdrop-blur-sm rounded-full px-5 py-2 mb-6">
           <span className="text-lg">🎉</span>
           <span className="text-white font-semibold text-sm sm:text-base drop-shadow">
-            &amp; Gender Reveal for Baby #2!
+            &amp; We&apos;re Welcoming the Second!
           </span>
           <span className="text-lg">🍼</span>
         </div>
+
+        <p className="text-sand-100 text-sm sm:text-base font-medium mb-8">
+          Come find out and place your bet! 🎉
+        </p>
 
         <div className="space-y-2 mb-8">
           <p className="font-bold text-white text-lg sm:text-xl drop-shadow">
